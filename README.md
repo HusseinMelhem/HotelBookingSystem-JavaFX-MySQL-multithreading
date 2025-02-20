@@ -77,6 +77,8 @@ CREATE TABLE IF NOT EXISTS bookings (
 
 
 📝 Sample Data
+
+
 INSERT INTO bookings (guest_name, username, room_number, check_in, check_out) VALUES
 ('John Doe', 'testuser', 101, '2025-02-18', '2025-02-20');
 
