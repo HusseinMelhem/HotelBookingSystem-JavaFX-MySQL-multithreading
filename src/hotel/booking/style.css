@@ -1,0 +1,80 @@
+/* 🔹 General Styling */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f4f4f4;
+}
+
+/* 🔹 Labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #2c3e50;
+}
+
+/* 🔹 Title Styling */
+.label-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e272e;
+}
+
+/* 🔹 TextFields & PasswordFields */
+.text-field, .password-field {
+    -fx-pref-width: 250px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #bdc3c7;
+    -fx-background-color: white;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #2980b9;
+}
+
+/* 🔹 Buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #3498db;
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* 🔹 Primary Buttons */
+.button-primary {
+    -fx-background-color: #2ecc71;
+}
+
+.button-primary:hover {
+    -fx-background-color: #27ae60;
+}
+
+/* 🔹 Danger Buttons */
+.button-danger {
+    -fx-background-color: #e74c3c;
+}
+
+.button-danger:hover {
+    -fx-background-color: #c0392b;
+}
+
+/* 🔹 ListView */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #dcdde1;
+}
+
+/* 🔹 VBox Styling */
+.vbox {
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+    -fx-alignment: center;
+}
